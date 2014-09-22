@@ -1,0 +1,48 @@
+#帮助文档
+#命令使用说明
+mkdir
+	-功能：创建目录
+	-参数： 无
+	-示例： mkdir lss  转到lss目录
+rmdir
+	-功能：删除文件
+	-参数： -a 表示用绝对路径
+		   -r 表示用相对路径
+	-示例： rmdir -a /root/home/user/sd  删除sd
+		   rmdir -r home/user/sd        	           
+		   rmdir -r ../home/user/sd         
+touch
+	-功能：新建文件
+	-参数： touch 文件名 文件类型
+	-示例： touch user txt
+ls
+	-功能：列出当前目录下的文件
+	-参数： 无
+	-示例：ls   	           
+		  
+cd
+	-功能：转换当前路径
+	-参数： -a 表示用绝对路径
+		   -r 表示用相对路径
+	-示例： cd -a /root/home  转到home目录
+		   cd -r home        同 cd -r ./home 转到当前路径的home子文件
+		   cd -r ../home     转到当前路径的上一级的home子文件
+pwd
+	-功能：查看当前所在路径
+	-参数：无
+	-示例：pwd
+help
+	-功能：查看帮助文档
+	-参数：无
+	-示例：help
+clear
+	-功能：清空面板
+	-参数：无
+	-示例：clear
+edit
+	-功能：编辑文件
+	-参数： -a 表示用绝对路径
+		   -r 表示用相对路径
+	-示例： edit -a /root/home/user/sd  编辑sd
+		   edit -r home/user/sd        
+		   edit -r ../home/user/sd    

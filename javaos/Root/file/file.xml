@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file name="root" type="directory" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+	<file name="etc" type="directory" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+		<file name="user.txt" type="txt" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+			user txt
+		</file>
+	</file>
+	<file name="deadlock" type="directory" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		<file name="processNum" type="txt" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		 3
+		</file>
+		<file name="resourceNum" type="txt" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		4
+		</file>
+		<file name="availdableResourceNum" type="txt" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		4,3,3,4
+		</file>
+		<file name="max" type="txt" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		4,6,5,3
+		1,2,5,3
+		1,2,3,5
+		</file>
+		<file name="allocation" type="txt" primission="rwxrwx" owner="root" time="2014-09-10 22:25:38">
+		4,2,1,3
+		1,2,3,1
+		1,2,2,3
+		</file>
+	</file>
+	<file name="file" type="directory" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+		<file name="file.xml" type="xml" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+			file.xml
+		</file>
+	</file>
+	<file name="home" type="directory" primission="rwxr-x" owner="root" time="2014-09-10 22:25:38">
+		<file name="lss" type="directory" primission="rwxr-x" owner="lss" time="2014-09-10 22:25:38">
+			<file name="sds" type="sd" owner="lss" time="2014-09-16 15:46:08" primission="rwxr-x"/>
+		
+		<file name="sd" type="sds" owner="lss" time="2014-09-21 22:11:35" primission="rwxr-x"/></file>
+		
+	<file name="user" type="directory" owner="user" time="2014-09-16 23:13:13" primission="rwxr-x"><file name="a" type="txt" owner="user" time="2014-09-16 23:18:21" primission="rwxr-x">
+dfdsfdfd</file></file></file>
+</file>
