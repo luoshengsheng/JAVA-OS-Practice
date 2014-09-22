@@ -1,5 +1,12 @@
-JAVA-OS-Practice
+﻿JAVA-OS-Practice
 ================
+源代码在javaos里面，，直接import导入工程然后重新导入lib文件夹下的jar包，开始的Main函数在StartJframe.java里
+
+本程序只是实现了文件管理，和死锁避免
+
+本程序的命令执行还有一些bug，，，所有的命令执行建议先用cd到工作目录
+
+test那个包下的所有java文件都没有用，可以直接删除
 
 模拟操作系统工作
 
